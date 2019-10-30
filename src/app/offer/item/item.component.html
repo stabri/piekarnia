@@ -1,1 +1,12 @@
-<p>item works!</p>
+<mat-card class="product-card">
+  <img mat-card-image src="https://akademiasmaku.pl/upload/recipes/13/chleb-pszenny-na-zakwasie-z-karmelizowana-cebulka-13.jpg"
+       alt="Photo of a Shiba Inu">
+  <mat-card-header>
+    <mat-card-title>{{product.name | uppercase}}</mat-card-title>
+  </mat-card-header>
+  <mat-card-actions>
+    <button mat-button (click)="openDialog()">OPIS</button>
+    <button mat-button>DODAJ DO LISTY</button>
+  </mat-card-actions>
+</mat-card>
+

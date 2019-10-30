@@ -1,1 +1,16 @@
-<p>offer works!</p>
+<mat-accordion >
+  <mat-expansion-panel (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false"
+                       *ngFor="let category of categories">
+    <mat-expansion-panel-header
+      [ngClass]="category.style"
+      [collapsedHeight]="'190px'"
+      [expandedHeight]="'190px'">
+      <mat-panel-title >
+        {{category.name | uppercase}}
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <app-item *ngFor="let product of products"
+              [product]="product"></app-item>
+  </mat-expansion-panel>
+</mat-accordion>

@@ -1,0 +1,35 @@
+::ng-deep mat-panel-title {
+  justify-content: center;
+  margin: 0;
+  font-size: 24px;
+}
+
+::ng-deep .mat-expansion-panel-body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+mat-expansion-panel {
+  margin: 12px 24px;
+}
+
+.jasne {
+  background-size: cover !important;
+  background-image: url("https://pliki.dlahandlu.pl/i/01/55/43/015543_r0_940.jpg") !important;
+}
+
+.zytnie {
+  background-size: cover !important;
+  background-image: url("http://www.gotuj.pl/uploads/recipes/logo/thumbnails/gallery_260-chleb-razowy-jpg-1337944435-35.jpg") !important;
+}
+
+.razowe {
+  background-size: cover !important;
+  background-image: url("http://www.wacyn.com.pl/htm/a/layout/piekarnia-radom.jpg") !important;
+}
+
+.slodkie {
+  background-size: cover !important;
+  background-image: url("https://r-scale-60.dcs.redcdn.pl/scale/o2/tvn/web-content/m/p1/i/cda72177eba360ff16b7f836e2754370/fb6789b1-7d14-4d1e-ab2c-93947cf366fb.jpg?type=1&srcmode=0&srcx=1/1&srcy=1/1&srcw=1/1&srch=1/1&dstw=640&dsth=360&quality=80") !important;
+}

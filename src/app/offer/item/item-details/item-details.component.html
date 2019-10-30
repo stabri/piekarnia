@@ -1,0 +1,14 @@
+<h1 mat-dialog-title>{{data.name | uppercase}}</h1>
+<img src="https://akademiasmaku.pl/upload/recipes/13/chleb-pszenny-na-zakwasie-z-karmelizowana-cebulka-13.jpg"
+     alt="" style="width: 80%; margin:0 10%" >
+<div mat-dialog-content>
+  <div class="descr">
+    <p>{{data.description}}</p>
+    <br>
+    <p>Cena: {{data.price}}</p>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Dodaj do listy</button>
+  <button mat-button (click)="onNoClick()">Powrót</button>
+</div>
